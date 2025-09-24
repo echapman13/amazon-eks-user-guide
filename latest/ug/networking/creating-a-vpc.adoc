@@ -32,7 +32,7 @@ You can also assign `IPv6` addresses to nodes in public and private subnets. The
 .. Open the link:cloudformation/[{aws} CloudFormation console,type="console"].
 .. From the navigation bar, select an {aws} Region that supports Amazon EKS.
 .. Choose *Create stack*, *With new resources (standard)*.
-.. Under *Prerequisite - Prepare template*, make sure that *Template is ready* is selected and then under *Specify template*, select *Amazon S3 URL*.
+.. Under *Prerequisite - Prepare template*, make sure that *Choose an existing template* is selected and then under *Specify template*, select *Amazon S3 URL*.
 .. You can create a VPC that supports only `IPv4`, or a VPC that supports `IPv4` and `IPv6`. Paste  one of the following URLs into the text area under *Amazon S3 URL* and choose *Next*:
 
 *** `IPv4`
@@ -75,7 +75,7 @@ This VPC has three public subnets that are deployed into different Availability 
 .. Open the link:cloudformation/[{aws} CloudFormation console,type="console"].
 .. From the navigation bar, select an {aws} Region that supports Amazon EKS.
 .. Choose *Create stack*, *With new resources (standard)*.
-.. Under *Prepare template*, make sure that *Template is ready* is selected and then under *Template source*, select *Amazon S3 URL*.
+.. Under *Prepare template*, make sure that *Choose an existing template* is selected and then under *Template source*, select *Amazon S3 URL*.
 .. Paste the following URL into the text area under *Amazon S3 URL* and choose *Next*:
 
 [source,none,subs="verbatim,attributes"]
@@ -103,7 +103,7 @@ This VPC has three private subnets that are deployed into different Availability
 .. Open the link:cloudformation/[{aws} CloudFormation console,type="console"].
 .. From the navigation bar, select an {aws} Region that supports Amazon EKS.
 .. Choose *Create stack*, *With new resources (standard)*.
-.. Under *Prepare template*, make sure that *Template is ready* is selected and then under *Template source*, select *Amazon S3 URL*.
+.. Under *Prepare template*, make sure that *Choose an existing template* is selected and then under *Template source*, select *Amazon S3 URL*.
 .. Paste the following URL into the text area under *Amazon S3 URL* and choose *Next*:
 
 [source,none,subs="verbatim,attributes"]
